@@ -10,3 +10,14 @@
 // Symbol => unique
 
 //object
+
+// ++++++++++++++++++++++++++++++++++++ datatypes++++++++++++++++++++++++++++++++++++++++
+
+/* Primitive  */ 
+
+// Number ,String ,boolean ,bigInt,Symbols ,null , undefined
+
+
+/* Non primitive (User defined data type)*/
+
+// Array , Objects, functional 
