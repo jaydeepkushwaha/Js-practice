@@ -1,8 +1,12 @@
 // Singleton objects 
 
+const tinderUser = {} // blanck object created
+// console.log(tinderUser);
+
+
 // const tinder = new Object ()
 
-const tinder = "jaydeep"
+const tinder = "jaydeep" // singleton object 
 
 // console.log(tinder);
 
@@ -17,7 +21,26 @@ const myInfo = {
     gmail : "jaydeepkushwaha558@gmail.com"
 }
 
-console.log(myInfo.fullName.lastName);
+// console.log(myInfo.fullName.lastName);
+
+
+const course = {
+    coursename : "java full Stack",
+    courseDuration : "eight monthes",
+    courseInstructors : "hitesh"
+}
+
+// course.courseInstructors
+
+const { courseInstructors : instructor} = course // destructure our value (courseinstructor to instructor)
+
+console.log(instructor);
+
+
+
+
+
+
 
 
 
